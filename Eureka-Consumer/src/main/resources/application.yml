@@ -3,7 +3,8 @@ eureka:
     service-url:
       defaultZone: http://euk1.com:7001/eureka/
 server:
-  port: 60 #7001
+  port: 70 #7001
 spring:
   application:
-    name: provider
+    name: consumer
+
