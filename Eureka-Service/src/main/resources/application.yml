@@ -1,7 +1,5 @@
-eureka:
-  client:
-    register-with-eureka: false # 是否将自己注册进入Eureka
-    fetch-registry: false #
-    service-url:
-      defaultZone: http://localhost:7900/eureka/
-
+spring:
+  profiles:
+    active: eureka1
+  application:
+    name: EurekaServer

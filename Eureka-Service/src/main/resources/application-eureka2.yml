@@ -1,0 +1,10 @@
+eureka:
+  client:
+    #    register-with-eureka: false # 是否将自己注册进入Eureka
+    #    fetch-registry: false #
+    service-url:
+      defaultZone: http://euk1.com:7001/eureka/
+  instance:
+    hostname: euk2.com
+server:
+  port: 7002 #7001
