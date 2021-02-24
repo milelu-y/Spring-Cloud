@@ -1,0 +1,18 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://euk1.com:7001/eureka/
+server:
+  port: 72
+spring:
+  application:
+    name: user-provider
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
+

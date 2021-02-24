@@ -7,3 +7,11 @@ server:
 spring:
   application:
     name: provider
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true

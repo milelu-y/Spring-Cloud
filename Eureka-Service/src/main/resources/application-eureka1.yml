@@ -1,10 +1,15 @@
 eureka:
   client:
-    #    register-with-eureka: false # 是否将自己注册进入Eureka
-    #    fetch-registry: false #
     service-url:
       defaultZone: http://euk1.com:7001/eureka/
+    fetch-registry: false
+    register-with-eureka: false
   instance:
     hostname: euk1.com #euk1.com
 server:
   port: 7001 #7001
+spring:
+  security:
+    user:
+      name: milelu
+      password: 123
